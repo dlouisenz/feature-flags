@@ -6,15 +6,23 @@ interface HomeProps {
 }
 
 const TextFlag = () => {
-  return <>Text Flag Enabled</>;
+  return (
+    <>
+      <h3>Text Flag Enabled</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </>
+  );
 };
 
 const TeamMenu = () => {
   return (
-    <ul>
-      <li>My Team</li>
-      <li>Someone else's Team</li>
-    </ul>
+    <>
+      <h3>Team menu flag enabled</h3>
+      <ul>
+        <li>My Team</li>
+        <li>Someone else's Team</li>
+      </ul>
+    </>
   );
 };
 
